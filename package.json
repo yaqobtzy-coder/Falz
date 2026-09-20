@@ -1,0 +1,13 @@
+{
+  "name": "fanxz07-ceo-muda",
+  "version": "2.1.0",
+  "private": true,
+  "description": "FANXZ07 CEO MUDA \u2014 Digital Store with Austin Pay QRIS",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "mkdir -p public && cp index.html style.css script.js public/ && cp -r assets public/ && echo Build OK"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

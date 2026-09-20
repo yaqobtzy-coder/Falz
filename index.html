@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#05080d">
+  <meta name="description" content="FANXZ07 CEO MUDA — Sewa Bot, Jasa Desain, Website, Rekber/MC & Suntik Sosmed.">
+  <title>FANXZ07 CEO MUDA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader" aria-label="Loading">
+    <img src="assets/landing-king-fanxz07.jpg" alt="FANXZ07" class="landing-bg">
+    <button id="enterBtn" class="btn primary enter-btn" hidden>🚀 KLIK UNTUK MASUK</button>
+  </div>
+
+  <div id="app" class="app" hidden>
+    <header class="topbar">
+      <div class="nav-wrap">
+        <button class="brand" data-page="home" aria-label="Home">
+          <span class="brand-mark">F7</span><span>FANXZ07 <b>CEO MUDA</b></span>
+        </button>
+        <nav id="navLinks" class="nav-links" aria-label="Navigasi">
+          <button data-page="home">🏠 Home</button>
+          <button data-page="produk">🛒 Produk</button>
+          <button data-page="bot">🤖 Sewa Bot</button>
+          <button data-page="desain">🎨 Jasa Desain</button>
+          <button data-page="web">🌐 Jasa Web</button>
+          <button data-page="rekber">🔐 Rekber/MC</button>
+          <button data-page="smm">📈 Suntik Sosmed</button>
+          <button data-page="order">📲 Cara Order</button>
+          <button data-page="riwayat">📋 Riwayat</button>
+          <button data-page="faq">❓ FAQ</button>
+          <button data-page="kontak">📞 Kontak</button>
+        </nav>
+        <div class="nav-actions">
+          <button id="musicBtn" class="icon-btn" title="Mute/Unmute">🔊</button>
+          <button id="cartBtn" class="cart-btn">🛒 Keranjang <span id="cartCount">(0)</span></button>
+          <button id="menuBtn" class="icon-btn menu-btn" aria-label="Buka menu">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="pages" class="pages">
+      <section class="page active" data-page="home">
+        <div class="hero container">
+          <div class="hero-copy">
+            <span class="badge">✦ FANXZ07 OFFICIAL DIGITAL STORE</span>
+            <h2>Solusi Digital <span>Modern</span><br>untuk kebutuhanmu.</h2>
+            <p>Sewa Bot WhatsApp, Jasa Desain, Jasa Website, Rekber/MC & Suntik Sosmed. Bayar praktis via QRIS.</p>
+            <div class="hero-actions">
+              <button class="btn primary" data-page="produk">Lihat Produk</button>
+              <a class="btn ghost" data-wa href="#">💬 Chat Admin WhatsApp</a>
+            </div>
+            <div class="hero-stats">
+              <div><strong>24/7</strong><small>Dukungan layanan</small></div>
+              <div><strong>250+</strong><small>Promo grup FREE</small></div>
+              <div><strong>QRIS</strong><small>Bayar instan</small></div>
+            </div>
+          </div>
+          <div class="hero-visual glass">
+            <div class="visual-glow"></div>
+            <img src="assets/logo-king-fanxz07.jpg" alt="FANXZ07" class="hero-logo">
+            <div class="visual-caption"><span>FANXZ07</span><b>CEO MUDA</b></div>
+          </div>
+        </div>
+        <div class="container promo-grid">
+          <div class="promo glass">
+            <span class="promo-icon">🎁</span><div><b>GRUP 250+ MEMBER = FREE</b><p>Grup dengan 250 member atau lebih mendapatkan sewa bot GRATIS.</p></div>
+            <button class="btn small" id="claimBtn">Klaim Gratis</button>
+          </div>
+          <a class="channel glass" href="https://whatsapp.com/channel/0029Vb839u6545v3dqLjio3X" target="_blank" rel="noopener"><span>📢</span><div><b>IKUTI SALURAN WHATSAPP FANXZ07</b><p>Info layanan, update, promo, dan informasi terbaru.</p></div><strong>↗</strong></a>
+        </div>
+        <div class="container quick-grid">
+          <button class="quick glass" data-page="bot"><span>🤖</span><b>Sewa Bot</b><small>Mulai Rp7.000</small></button>
+          <button class="quick glass" data-page="desain"><span>🎨</span><b>Jasa Desain</b><small>Mulai Rp1.000</small></button>
+          <button class="quick glass" data-page="web"><span>🌐</span><b>Jasa Web</b><small>Mulai Rp5.000</small></button>
+          <button class="quick glass" data-page="rekber"><span>🔐</span><b>Rekber / MC</b><small>Fee otomatis</small></button>
+          <button class="quick glass" data-page="smm"><span>📈</span><b>Suntik Sosmed</b><small>Otomatis via web</small></button>
+        </div>
+      </section>
+
+      <!-- PRODUK HUB — gaya foto 2: list kartu kategori -->
+      <section class="page" data-page="produk">
+        <div class="container narrow">
+          <div class="section-head">
+            <span class="eyebrow">MENU</span>
+            <h2>🛒 Produk & Layanan</h2>
+            <p>Pilih kategori layanan di bawah.</p>
+          </div>
+          <div class="menu-list">
+            <a class="menu-card glass" href="https://whatsapp.com/channel/0029Vb839u6545v3dqLjio3X" target="_blank" rel="noopener">
+              <span class="menu-icon">📢</span>
+              <div><b>IKUTI SALURAN WHATSAPP FANXZ07</b><small>Info layanan, update, promo, dan informasi terbaru.</small></div>
+              <strong>↗</strong>
+            </a>
+            <button class="menu-card glass" data-page="bot">
+              <span class="menu-icon">🤖</span>
+              <div><b>Sewa Bot</b><small>Mulai Rp7.000</small></div>
+            </button>
+            <button class="menu-card glass" data-page="desain">
+              <span class="menu-icon">🎨</span>
+              <div><b>Jasa Desain</b><small>Mulai Rp1.000</small></div>
+            </button>
+            <button class="menu-card glass" data-page="web">
+              <span class="menu-icon">🌐</span>
+              <div><b>Jasa Web</b><small>Mulai Rp5.000</small></div>
+            </button>
+            <button class="menu-card glass" data-page="rekber">
+              <span class="menu-icon">🔐</span>
+              <div><b>Rekber / MC</b><small>Fee otomatis</small></div>
+            </button>
+            <button class="menu-card glass" data-page="smm">
+              <span class="menu-icon">📈</span>
+              <div><b>Suntik Sosmed</b><small>Followers, likes, views — otomatis</small></div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="page" data-page="bot"><div class="container"><div class="section-head"><span class="eyebrow">WHATSAPP SERVICE</span><h2>🤖 Sewa Bot WhatsApp</h2><p>Bot untuk menjaga grup WhatsApp. Bisa masuk keranjang atau pesan langsung.</p></div><div id="botProducts" class="product-grid"></div><div class="promo wide glass"><span class="promo-icon">🎁</span><div><b>FREE 250+ MEMBER</b><p>Grup 250+ member dapat sewa bot GRATIS.</p></div><button class="btn small" id="claimBtn2">Klaim Gratis</button></div></div></section>
+      <section class="page" data-page="desain"><div class="container"><div class="section-head"><span class="eyebrow">CREATIVE</span><h2>🎨 Jasa Desain</h2><p>Desain clean, rapi, modern. Keranjang atau pesan langsung.</p></div><div id="designProducts" class="product-grid"></div></div></section>
+      <section class="page" data-page="web"><div class="container"><div class="section-head"><span class="eyebrow">WEB SERVICE</span><h2>🌐 Jasa Website</h2><p>Website modern & responsive. Keranjang atau pesan langsung.</p></div><div id="webProducts" class="product-grid"></div></div></section>
+      <section class="page" data-page="rekber"><div class="container"><div class="section-head"><span class="eyebrow">SAFE TRANSACTION</span><h2>🔐 LIST FEE FANXZ07 ✨</h2><p>Fee Rekber/MC berdasarkan nominal transaksi.</p></div><div class="rekber-layout"><div class="glass fee-card"><div class="table-scroll"><table><thead><tr><th>Nominal Transaksi</th><th>Fee</th></tr></thead><tbody id="feeTable"></tbody></table></div></div><div class="glass calculator"><h3>Hitung Fee</h3><label for="transactionInput">Nominal Transaksi</label><div class="money-input"><span>Rp</span><input id="transactionInput" inputmode="numeric" placeholder="Contoh: 150000"></div><div class="fee-result"><small>Fee Rekber/MC</small><strong id="feeResult">Rp0</strong></div><button id="rekberBtn" class="btn primary full">Gunakan Jasa Rekber/MC</button></div></div></div></section>
+
+      <!-- SUNTIK SOSMED -->
+      <section class="page" data-page="smm">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">SOCIAL MEDIA</span>
+            <h2>📈 Suntik Sosmed</h2>
+            <p>Pesan otomatis setelah bayar QRIS. Pilih layanan, isi target, bayar — order langsung diproses.</p>
+          </div>
+          <div class="smm-toolbar glass">
+            <input id="smmSearch" type="search" placeholder="Cari layanan...">
+            <select id="smmCategory"><option value="">Semua kategori</option></select>
+          </div>
+          <div id="smmLoading" class="cart-empty">Memuat layanan...</div>
+          <div id="smmList" class="smm-list"></div>
+        </div>
+      </section>
+
+      <section class="page" data-page="order"><div class="container"><div class="section-head"><span class="eyebrow">HOW TO ORDER</span><h2>📲 Cara Order</h2></div><div class="steps" id="steps"></div></div></section>
+      <section class="page" data-page="riwayat">
+        <div class="container">
+          <div class="section-head"><span class="eyebrow">HISTORY</span><h2>📋 Riwayat Transaksi</h2><p>Pembayaran & order SMM yang berhasil.</p></div>
+          <div id="historyList" class="history-list"></div>
+          <div id="historyEmpty" class="cart-empty" style="display:none">Belum ada transaksi.</div>
+        </div>
+      </section>
+      <section class="page" data-page="faq"><div class="container narrow"><div class="section-head"><span class="eyebrow">HELP CENTER</span><h2>❓ FAQ</h2></div><div id="faqList" class="faq-list"></div></div></section>
+      <section class="page" data-page="kontak"><div class="container narrow"><div class="contact-card glass"><span class="eyebrow">CONTACT ADMIN</span><h2>FANXZ07 CEO MUDA</h2><p>WhatsApp Admin: <strong>083171402249</strong></p><a class="btn primary" data-wa href="#">💬 CHAT ADMIN WHATSAPP</a><a class="channel compact" href="https://whatsapp.com/channel/0029Vb839u6545v3dqLjio3X" target="_blank" rel="noopener"><span>📢</span><div><b>Ikuti Saluran Admin</b><small>Update layanan & promo</small></div><strong>↗</strong></a></div></div></section>
+    </main>
+
+    <footer><div class="container foot"><div><b>FANXZ07 CEO MUDA</b><span>Digital Service Store</span></div><div class="foot-links"><button data-page="home">Home</button><button data-page="produk">Produk</button><button data-page="smm">Suntik Sosmed</button><button data-page="riwayat">Riwayat</button><button data-page="kontak">Kontak</button></div><small>© <span id="year"></span> FANXZ07</small></div></footer>
+    <button id="resumePayBtn" class="resume-pay-btn" hidden type="button">💳 Lanjutkan Pembayaran</button>
+    <a class="floating-wa" data-wa href="#" aria-label="Chat WhatsApp">💬</a>
+  </div>
+
+  <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
+    <div class="cart-head"><div><span class="eyebrow">YOUR CART</span><h3>🛒 Keranjang</h3></div><button id="closeCart" class="icon-btn">✕</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-bottom">
+      <div class="total-row"><span>Total</span><strong id="cartTotal">Rp0</strong></div>
+      <button id="checkoutBtn" class="btn primary full">💳 Bayar via QRIS</button>
+      <button id="clearCart" class="btn danger full">Kosongkan Keranjang</button>
+    </div>
+  </aside>
+  <div id="overlay" class="overlay"></div>
+
+  <!-- SMM ORDER MODAL -->
+  <div id="smmModal" class="pay-modal" aria-hidden="true">
+    <div class="pay-card glass">
+      <div class="pay-head">
+        <div><span class="eyebrow">SUNTIK SOSMED</span><h3 id="smmModalTitle">Pesan Layanan</h3></div>
+        <button id="closeSmm" class="icon-btn">✕</button>
+      </div>
+      <div class="pay-body">
+        <p id="smmModalDesc" class="pay-hint"></p>
+        <div class="smm-form">
+          <label>Target (username / link)</label>
+          <input id="smmTarget" type="text" placeholder="contoh: username atau https://...">
+          <label id="smmQtyLabel">Jumlah</label>
+          <input id="smmQty" type="number" min="1" placeholder="100">
+          <div id="smmExtraFields"></div>
+          <div class="fee-result" style="margin-top:12px">
+            <small>Estimasi harga</small>
+            <strong id="smmPricePreview">Rp0</strong>
+          </div>
+          <p class="pay-hint">Min: <span id="smmMin">—</span> · Max: <span id="smmMax">—</span> · Harga per 1000: <span id="smmRate">—</span></p>
+        </div>
+        <div class="pay-actions" style="margin-top:14px">
+          <button id="smmPayBtn" class="btn primary full">💳 Bayar & Proses Otomatis</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAYMENT QRIS MODAL -->
+  <div id="payModal" class="pay-modal" aria-hidden="true">
+    <div class="pay-card glass">
+      <div class="pay-head">
+        <div><span class="eyebrow">PEMBAYARAN QRIS</span><h3>Scan untuk Bayar</h3></div>
+        <button id="closePay" class="icon-btn">✕</button>
+      </div>
+      <div class="pay-body">
+        <div id="payLoading" class="pay-loading"><div class="spinner"></div><p>Membuat QRIS...</p></div>
+        <div id="payContent" hidden>
+          <img id="qrImage" class="qr-img" alt="QRIS">
+          <div class="pay-amount"><small>Total</small><strong id="payAmount">Rp0</strong></div>
+          <div class="pay-meta">
+            <div><span>ID Transaksi</span><b id="payTxId">—</b></div>
+            <div><span>Status</span><b id="payStatus" class="status-pending">pending</b></div>
+            <div><span>Berlaku sampai</span><b id="payExpired">—</b></div>
+          </div>
+          <p class="pay-hint">Scan QR dengan e-wallet / m-banking. Status dicek otomatis tiap 20 detik. Boleh tutup — pakai tombol “Lanjutkan Pembayaran” untuk buka lagi.</p>
+          <div class="pay-actions">
+            <button id="btnCancelPay" class="btn danger full" disabled>Batalkan (tunggu 40 detik)</button>
+          </div>
+        </div>
+        <div id="paySuccess" hidden>
+          <div class="success-icon">✓</div>
+          <h3>Pembayaran Berhasil!</h3>
+          <p id="paySuccessMsg">Pesanan tercatat.</p>
+          <button id="btnGoHistory" class="btn primary full">Lihat Riwayat & Struk</button>
+        </div>
+        <div id="payError" hidden>
+          <p id="payErrorMsg" class="error-text"></p>
+          <button id="btnRetryPay" class="btn primary full">Coba Lagi</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="receiptModal" class="pay-modal" aria-hidden="true">
+    <div class="pay-card glass receipt-card">
+      <div class="pay-head">
+        <div><span class="eyebrow">STRUK PEMBAYARAN</span><h3>Detail Transaksi</h3></div>
+        <button id="closeReceipt" class="icon-btn">✕</button>
+      </div>
+      <div class="pay-body">
+        <canvas id="receiptCanvas" width="400" height="600"></canvas>
+        <div class="pay-actions" style="margin-top:16px">
+          <button id="btnDownloadReceipt" class="btn primary full">⬇️ Download Struk</button>
+          <button id="btnSendWa" class="btn ghost full">💬 Kirim ke Admin WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast">✓</div>
+  <audio id="bgMusic" loop preload="none"><source src="assets/music.mp3" type="audio/mpeg"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/create-deposit"
+  to = "/.netlify/functions/create-deposit"
+  status = 200
+
+[[redirects]]
+  from = "/api/check-deposit"
+  to = "/.netlify/functions/check-deposit"
+  status = 200
+
+[[redirects]]
+  from = "/api/cancel-deposit"
+  to = "/.netlify/functions/cancel-deposit"
+  status = 200
+
+[[redirects]]
+  from = "/api/webhook/austinpay"
+  to = "/.netlify/functions/webhook-austinpay"
+  status = 200
+
+[[redirects]]
+  from = "/api/smm-services"
+  to = "/.netlify/functions/smm-services"
+  status = 200
+
+[[redirects]]
+  from = "/api/smm-order"
+  to = "/.netlify/functions/smm-order"
+  status = 200
+
+[[redirects]]
+  from = "/api/smm-status"
+  to = "/.netlify/functions/smm-status"
+  status = 200
